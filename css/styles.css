@@ -64,7 +64,12 @@ h3 {
   background-color: #f4f4fd;
 }
 
-.team > ul > li {
+.team-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.team-member {
   background-color: #ffffff;
 }
 
@@ -72,7 +77,8 @@ h3 {
   text-align: center;
 }
 
-.team > ul > li > h3,
-.team > ul > li > p {
-  text-align: center;
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
