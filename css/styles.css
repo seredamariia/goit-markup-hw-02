@@ -23,6 +23,23 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .hero .hero-button {
   font-family: inherit;
   background-color: #4d5ae5;
@@ -39,10 +56,21 @@ h1 {
   cursor: pointer;
 }
 
-.principles-subtitle {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.team {
+  background-color: #f4f4fd;
+}
+
+.team > ul > li {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+}
+
+.team > ul > li > h3 {
+  text-align: center;
+}
+
+.team > ul > li > h3,
+.team > ul > li > p {
+  text-align: center;
 }
