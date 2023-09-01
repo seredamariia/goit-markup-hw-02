@@ -46,8 +46,6 @@ h3 {
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 169px;
-  height: 56px;
 }
 
 .hero .hero-button:hover,
@@ -62,8 +60,6 @@ h3 {
 
 .team > ul > li {
   background-color: #ffffff;
-  width: 264px;
-  height: 380px;
 }
 
 .team > ul > li > h3 {
