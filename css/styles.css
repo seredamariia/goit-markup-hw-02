@@ -54,6 +54,24 @@ h3 {
   color: #4d5ae5;
 }
 
+.header-menu,
+.header-contacts {
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu:hover,
+.header-menu:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
 .logo-accent {
   color: #2e2f42;
 }
