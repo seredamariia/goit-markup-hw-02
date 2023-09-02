@@ -1,7 +1,20 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--text);
+  background-color: var(--white);
   font-size: 16px;
 }
 
@@ -12,7 +25,7 @@ ol {
 
 .hero,
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--dark);
 }
 
 a {
@@ -20,7 +33,7 @@ a {
 }
 
 h1 {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
@@ -29,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color: #2e2f42;
+  color: var(--dark);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
@@ -38,15 +51,11 @@ h2 {
 }
 
 h3 {
-  color: #2e2f42;
+  color: var(--dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-
-.header {
-  color: #2e2f42;
 }
 
 .header-logo,
@@ -57,11 +66,11 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 
 .header-menu {
-  color: #2e2f42;
+  color: var(--dark);
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -72,7 +81,7 @@ h3 {
 }
 
 .address-contacts {
-  color: #434455;
+  color: var(--text);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -81,7 +90,7 @@ h3 {
 .header-menu:focus,
 .address-contacts:hover,
 .address-contacts:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .header-contacts {
@@ -89,13 +98,13 @@ h3 {
 }
 
 .header-accent {
-  color: #2e2f42;
+  color: var(--dark);
 }
 
 .hero .hero-button {
   font-family: inherit;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--primary-brand);
+  color: var(--white);
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
@@ -103,7 +112,7 @@ h3 {
 
 .hero .hero-button:hover,
 .hero .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
   cursor: pointer;
 }
 
@@ -112,8 +121,9 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.team {
-  background-color: #f4f4fd;
+.team,
+.footer-accent {
+  background-color: var(--light);
 }
 
 .team-title,
@@ -123,7 +133,7 @@ h3 {
 }
 
 .team-member {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .team-text,
@@ -133,12 +143,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.footer-accent {
-  color: #f4f4fd;
-}
-
 .footer-text {
-  color: #f4f4fd;
+  color: var(--light);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
